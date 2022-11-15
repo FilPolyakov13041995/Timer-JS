@@ -1,0 +1,38 @@
+
+h1 {
+    text-align: center;
+}
+h4 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.timer__block {
+    background-color: rgb(227, 31, 31);
+    margin-right: 5px;
+    border-radius: 5px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+}
+
+.timer__block:last-child {
+    margin-right: 0;
+}
+
+.days,
+.hours,
+.minutes,
+.seconds {
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+}
